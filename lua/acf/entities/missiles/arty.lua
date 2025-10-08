@@ -69,7 +69,7 @@ Missiles.RegisterItem("SAKR-10 RA", "ARTY", {
 	ReloadTime	= 20,
 	ExhaustPos  = Vector(-44),
 	Racks		= { ["1xRK"] = true, ["2xRK"] = true, ["4xRK"] = true, ["6xUARRK"] = true },
-	Guidance	= { Dumb = true, Laser = true, ["GPS Guided"] = true },
+	Guidance	= { Dumb = true }
 	Navigation  = "Chase",
 	Fuzes		= { Contact = true, Timed = true, Optical = true, Altitude = true },
 	Agility		= 0.001,
@@ -112,7 +112,7 @@ Missiles.RegisterItem("SS-40 RA", "ARTY", {
 	ReloadTime	= 30,
 	ExhaustPos  = Vector(-70),
 	Racks		= { ["1xRK"] = true, ["2xRK"] = true, ["4xRK"] = true, ["6xUARRK"] = true },
-	Guidance	= { Dumb = true, Laser = true, ["GPS Guided"] = true },
+	Guidance	= { Dumb = true },
 	Navigation  = "PN",
 	Fuzes		= { Contact = true, Timed = true, Optical = true, Altitude = true },
 	Agility		= 0.004,
